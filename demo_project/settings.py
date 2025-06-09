@@ -123,11 +123,12 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://transac-ithq.onrender.com/',
-    'http://transac-ithq.onrender.com/',
-    'https://transac-ithq.onrender.com',
-    'http://transac-ithq.onrender.com',
-    'https://www.transac-ithq.onrender.com',
+    'https://sc-cl7r.onrender.com/',
+    'https://sc-cl7r.onrender.com',
+    'http://sc-cl7r.onrender.com/',
+    'https://sc-cl7r.onrender.com',
+    'http://sc-cl7r.onrender.com',
+    'https://www.sc-cl7r.onrender.com',
 ]
 
 SOCIALACCOUNT_PROVIDERS = {

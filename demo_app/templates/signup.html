@@ -7,7 +7,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SC | Signup</title>
-  <link rel="stylesheet" href="{% static 'style.css' %}" />
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 </head>
 <body>
   <div class="login-container">
@@ -41,14 +41,14 @@
 
     <div class="social-login">
       <a href="{% provider_login_url 'google' %}"><button class="google-btn">
-        <img src="{% static 'google-logo.png' %}" alt="Google" height="20" class="btn-icon"> Google
+        <img src="{% static 'images/google-logo.png' %}" alt="Google" height="20" class="btn-icon"> Google
       </button></a>
       <button class="microsoft-btn">
-        <img src="{% static 'ms-logo.png' %}" alt="Microsoft" height="20" class="btn-icon"> Microsoft
+        <img src="{% static 'images/ms-logo.png' %}" alt="Microsoft" height="20" class="btn-icon"> Microsoft
       </button>
     </div>
   </div>
 
-  <script src="{% static 'script.js' %}"></script>
+  <script src="{% static 'jsscript.js' %}"></script>
 </body>
 </html>
